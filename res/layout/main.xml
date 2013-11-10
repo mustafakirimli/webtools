@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="6dip">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dip">
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dip"
+            android:src="@drawable/icon" />
+
+        <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textStyle="bold" 
+                android:textSize="16sp"
+                android:text="@string/app_title" />
+            
+            <TextView  
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" 
+                android:gravity="bottom"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:textSize="13sp" 
+                android:text="@string/app_desc" />    
+        </LinearLayout>
+    </LinearLayout>
+   
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dip"
+        android:layout_marginTop="40dip">
+        <AutoCompleteTextView android:id="@+id/entry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dip"
+            android:hint="@string/enter_url"
+            android:padding="8dip"
+            android:background="@android:drawable/editbox_background"/>
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="22dip"
+            android:paddingRight="22dip"
+            android:layout_below="@id/entry"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dip"
+            android:text="@string/submit_button" />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:background="@android:drawable/divider_horizontal_dim_dark" 
+        android:layout_marginTop="40dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:padding="4dip">
+        <ListView android:id="@+id/recentList"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:drawSelectorOnTop="false"/>
+    </LinearLayout>
+</LinearLayout>
+

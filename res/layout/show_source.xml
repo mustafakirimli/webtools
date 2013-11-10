@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/ShowSourceLayout">
+        
+    <EditText android:id="@+id/htmlsource"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:gravity="top|left" android:inputType="textMultiLine"
+            android:scrollHorizontally="false" 
+            android:minWidth="10.0dip"
+            android:maxWidth="5.0dip"
+            android:padding="8dip"
+            android:editable="true"
+            android:maxLength="1048576"/>
+</LinearLayout>

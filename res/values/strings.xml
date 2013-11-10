@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Web Tools</string>
+    <string name="app_title">Powerful Webmaster Tools</string>
+    <string name="app_desc">SEO - SEM &amp; developer tools</string>
+    <string name="enter_url">Please enter an URL address!</string>
+    <string name="submit_button">Start Analysis</string>
+    <string name="check_your_internet">Check your internet connection!</string>
+    <string name="invalid_url">Please enter a valid URL</string>
+    <string name="url_open_error">An error occurred, please try again later</string>
+    <string name="working">Working</string>
+    <string name="getting_message">Analyzing URL address...</string>
+    <string name="source">Source</string>
+    <string name="header">Header</string>
+    <string name="meta">Meta</string>
+    <string name="web">Web</string>
+    <string name="url">URL</string>
+    <string name="console">Console</string>
+    <string name="network">Network</string>
+    <string name="summary">Summary</string>
+    <string name="console_loaded">Console loaded</string>
+    <string name="resource">Resource</string>
+    <string name="clear_console">Clear Console Logs</string>
+    <string name="clear_line">cls</string>
+    <string name="run_command">run</string>
+    <string name="new_line">Enter</string>
+    <string name="enter_command">Please enter a JavaScript command</string>
+    <string name="under_cons">Under construction.</string>
+    <string name="user_cancelled">Cancelled by user!</string>
+    <string name="css_button">CSS</string>
+    <string name="img_button">IMG</string>
+    <string name="js_button">JS</string>
+    <string name="other_button">OTHER</string>
+    <string name="all_button">ALL</string>
+    <string name="domain_desc">* Statistics for domain (not URL)</string>
+    <string name="Ranks">Ranks</string>
+    <string name="Other">Other</string>
+    <string name="Social">Social Media</string>
+    <string name="FacebookLike">Facebook Like</string>
+    <string name="FacebookTalking">Facebook Talk.</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Backlinks">Backlinks</string>
+    <string name="Alexa">Alexa</string>
+    <string name="AlexaCountry">Alexa Country</string>
+    <string name="DMOZ">DMOZ</string>
+    <string name="Indexes">Indexes</string>
+    <string name="Google">Google</string>
+    <string name="GooglePR">Google PageRank</string>
+    <string name="GoogleImage">Google Image</string>
+    <string name="LastAccess">Last Access</string>
+    <string name="Yahoo">Yahoo</string>
+    <string name="Bing">Bing</string>
+    <string name="AdCost">Ad Cost / Month</string>
+    <string name="VisitorsMonthly">Visitors (monthly)</string>
+    <string name="Visits">Visits</string>
+    <string name="Visitors">Visitors</string>
+    <string name="PageViews">PageViews</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string-array name="protocols_array">
+        <item>http://</item>
+        <item>http://www.</item>
+        <item>https://</item>
+        <item>https://www.</item>
+        <item>www.</item>
+    </string-array>
+    <string-array name="jscommand_array">
+        <item>document</item>
+        <item>document.getElementById(\"\")</item>
+        <item>document.getElementsByTagName(\"\")</item>
+        <item>document.getElementsByName(\"\")</item>
+        <item>document.write(\"\")</item>
+        <item>document.title</item>
+        <item>document.cookie</item>
+        <item>document.documentMode</item>
+        <item>document.domain</item>
+        <item>document.lastModified</item>
+        <item>document.readyState</item>
+        <item>document.referrer</item>
+        <item>document.URL</item>
+        <item>document.anchors</item>
+        <item>document.forms</item>
+        <item>document.images</item>
+        <item>document.links</item>
+        <item>window</item>
+        <item>window.closed</item>
+        <item>window.defaultStatus</item>
+        <item>window.document</item>
+        <item>window.frames</item>
+        <item>window.history</item>
+        <item>window.innerHeight</item>
+        <item>window.innerWidth</item>
+        <item>window.length</item>
+        <item>window.location</item>
+        <item>window.name</item>
+        <item>window.navigator</item>
+        <item>window.opener</item>
+        <item>window.outerHeight</item>
+        <item>window.outerWidth</item>
+        <item>window.pageXOffset</item>
+        <item>window.pageYOffset</item>
+        <item>window.parent</item>
+        <item>window.screen</item>
+        <item>window.screenLeft</item>
+        <item>window.screenTop</item>
+        <item>window.screenX</item>
+        <item>window.screenY</item>
+        <item>window.self</item>
+        <item>window.status</item>
+        <item>window.top</item>
+        <item>navigator</item>
+        <item>navigator.geolocation</item>
+        <item>navigator.geolocation.lastPosition</item>
+        <item>navigator.geolocation.getCurrentPosition()</item>
+        <item>navigator.cookieEnabled</item>
+        <item>navigator.product</item>
+        <item>navigator.platform</item>
+        <item>navigator.userAgent</item>
+        <item>navigator.connection</item>
+        <item>jQuery</item>
+    </string-array>
+</resources>

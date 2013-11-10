@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.mkirimli.webtools"
+      android:versionCode="16"
+      android:versionName="3.4">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <application android:label="@string/app_name" 
+                 android:icon="@drawable/icon"
+                 android:name="PWT">
+        <activity android:name="WebTools"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ShowSource"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name="AnalysisTabs"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name="ShowHeader"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name="ShowMeta"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name="ShowWeb"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name="ShowUrl"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name="ShowConsole"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="8"/>
+</manifest> 

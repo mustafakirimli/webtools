@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="6dip"
+    android:id="@+id/ShowNetworkLayout">
+        
+    <ListView android:id="@+id/networkList"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginBottom="50dip"/>
+    <RelativeLayout android:layout_marginTop="-50dip" 
+                     android:gravity="bottom" 
+                     android:layout_height="wrap_content" 
+                     android:layout_width="fill_parent">
+        <LinearLayout
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1">
+            <ToggleButton android:id="@+id/CssButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:textOn="@string/css_button"
+                android:textOff="@string/css_button"/>
+            <ToggleButton android:id="@+id/JsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:textOn="@string/js_button"
+                android:textOff="@string/js_button"/>
+            <ToggleButton android:id="@+id/ImgButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:textOn="@string/img_button"
+                android:textOff="@string/img_button"/>
+            <ToggleButton android:id="@+id/OtherButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:textOn="@string/other_button"
+                android:textOff="@string/other_button"/>
+            <ToggleButton android:id="@+id/AllButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:textOn="@string/all_button"
+                android:textOff="@string/all_button"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

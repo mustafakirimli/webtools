@@ -1,0 +1,16 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent" android:layout_height="45dip"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="190dip"
+                android:layout_height="45dip"
+                android:textStyle="bold" android:textSize="17dip"
+                android:gravity="center_vertical" android:id="@+id/tvGroup2"
+                android:text="Children" android:textColor="#ffCCCC22" >
+    </TextView>
+    <TextView android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:textStyle="bold" android:textSize="17dip"
+                android:gravity="center_vertical|right" android:id="@+id/childValue"
+                android:text="" >
+    </TextView>
+</LinearLayout>

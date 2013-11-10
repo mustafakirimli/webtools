@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Web Tools</string>
+    <string name="app_title">Powerful Webmaster Tools</string>
+    <string name="app_desc">SEO - SEM &amp; geliştirici araçları</string>
+    <string name="enter_url">Lütfen bir URL girin!</string>
+    <string name="submit_button">Analizi Başlat</string>
+    <string name="check_your_internet">Internet bağlantınızı kontrol edin!</string>
+    <string name="invalid_url">Lütfen geçerli bir URL girin!</string>
+    <string name="url_open_error">Bir hata oluştu, lütfen daha sonra tekrar deneyin</string>
+    <string name="working">Çalışıyor</string>
+    <string name="getting_message">URL adresi analiz ediliyor...</string>
+    <string name="source">Kaynak</string>
+    <string name="header">Header</string>
+    <string name="meta">Meta</string>
+    <string name="web">Web</string>
+    <string name="url">URL</string>
+    <string name="console">Konsol</string>
+    <string name="network">Network</string>
+    <string name="summary">Özet</string>
+    <string name="console_loaded">Konsol yüklendi</string>
+    <string name="resource">Kaynak</string>
+    <string name="clear_console">Konsol Loglarını Temizle</string>
+    <string name="clear_line">cls</string>
+    <string name="run_command">çalıştır</string>
+    <string name="new_line">Enter</string>
+    <string name="enter_command">Lütfen bir JavaScript komut girin</string>
+    <string name="under_cons">Yapım aşamasında.</string>
+    <string name="user_cancelled">Kullanıcı tarafından iptal edildi!</string>
+    <string name="css_button">CSS</string>
+    <string name="img_button">IMG</string>
+    <string name="js_button">JS</string>
+    <string name="other_button">DİĞER</string>
+    <string name="all_button">TÜMÜ</string>
+    <string name="domain_desc">* İstatistikler domain içindir. (URL değil)</string>
+    <string name="Ranks">Sıralama</string>
+    <string name="Other">Diğer</string>
+    <string name="Social">Sosyal Medya</string>
+    <string name="FacebookLike">Facebook Like</string>
+    <string name="FacebookTalking">Facebook Talk.</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Backlinks">Backlinks</string>
+    <string name="Alexa">Alexa</string>
+    <string name="AlexaCountry">Alexa Ülke</string>
+    <string name="DMOZ">DMOZ</string>
+    <string name="Indexes">İndeks</string>
+    <string name="Google">Google</string>
+    <string name="GooglePR">Google PageRank</string>
+    <string name="GoogleImage">Google Görsel</string>
+    <string name="LastAccess">Son Erişim</string>
+    <string name="Yahoo">Yahoo</string>
+    <string name="Bing">Bing</string>
+    <string name="AdCost">Reklam Büt./Ay</string>
+    <string name="VisitorsMonthly">Ziyaretçi (aylık)</string>
+    <string name="Visits">Ziyaret</string>
+    <string name="Visitors">Ziyaretçi</string>
+    <string name="PageViews">Sayfa Gör.</string>
+    <string name="Yes">Evet</string>
+    <string name="No">Hayır</string>
+    <string-array name="protocols_array">
+        <item>http://</item>
+        <item>http://www.</item>
+        <item>https://</item>
+        <item>https://www.</item>
+        <item>www.</item>
+    </string-array>
+</resources>
